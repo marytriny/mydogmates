@@ -1,1 +1,1 @@
-# mydogmates is cool and so is the majors lab
+# mydogmates is cool and so is dirac
