@@ -8,13 +8,13 @@ body{
   background: #B5D3E7;
   margin: 0;
   padding: 0;
-  font: 12px "Verdana",sans-serif;
+  font: 14px "Lucida Sans Unicode",sans-serif;
   text-align: center;
   line-height: 1.7em;
   color: #000;
 }
 #content{
-	background: #FFF url(images/topleft.gif) no-repeat top left;
+	/*background: #FFF url(images/topleft.gif) no-repeat top left;*/
 	padding: 10px;
 }
 #footer{
@@ -34,14 +34,16 @@ body{
 #right{
 	float: right;
 	width: 170px;
-	background: #FFF url(images/topleft.gif) no-repeat top left;
+	background: #FFF /*url(images/topleft.gif)*/ no-repeat top left;
 }
+/*
 #top{
 	margin: 10px 0 0 10px;
 	width: 600px;
 	background: #5F5F5F url(images/toptopleft.gif) no-repeat top left;
 	color: #F5F5F5;
 }
+*/
 /*Configuring the -top-box */
 #top dd{
 	margin: 0;
@@ -74,34 +76,37 @@ body{
 }
 /* just the c#content box*/
 h2{
-	font: normal normal 1.5em "Georgia",serif;
-	color: #000;
+	font: normal bold 2em "Lucida Sans Unicode",sans-serif;
+	color: #B5D3E7;
 	text-decoration: none;
-	background: url(images/h2.gif) top left no-repeat;
+	/*background: url(images/h2.gif) top left no-repeat;*/
 	padding: 3px 0 0 8px;
 }
 h3{
-	font: normal normal 1em "Georgia",serif;
+	font: normal normal 1em "Lucida Sans Unicode",sans-serif;
 	text-transform: uppercase;
 	text-indent: 2em;
 	margin: 7px 0 2px 0;
 }
 #headline{
-	background: url(/Users/triny/Desktop/DOGHEADER.jpg) no-repeat top left;
-	width: 590px;
-	height: 90px;
+	background: url(images/h2.1.jpg) no-repeat top left;
+	width: 600px;
+	height: 300px;
 	position: relative;
+    border: 2px solid white;
+    border-radius: 15px;
 }
 
 #headline h1{
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
+	position: relative;
+	top: 5px;
+	left: 10px;
 	color: #FFF;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
-	font: normal normal 2.2em "Trebuchet MS","Arial",sans-serif;
+    text-shadow: 3px 2px #e00f0f;
+	font: normal bold 4em "Trebuchet MS","Lucida Grande",sans-serif;
 }
 p{
 	text-indent: 1.3em;
@@ -115,7 +120,7 @@ p{
 form{
 	margin: 0;
 	padding: 0 0 30px 0;
-	border-bottom: 1px #999 solid;
+	border-bottom: 1px #e00f0f solid;
 }
 form input{
 	background: #F5F5F5;
@@ -123,7 +128,7 @@ form input{
 	border-bottom: 1px #EFEFEF dotted;
 }
 form label{
-	font-family: "Georgia",serif;
+	font-family: "Lucida Sans Unicode",sans-serif;
 }
 form .button{
 	background: #FFF;
@@ -131,11 +136,11 @@ form .button{
 	cursor: pointer;
 }
 form a{
-	font-family: "Georgia",serif;
+	font-family: "Lucida Sans Unicode",sans-serif;
 }
 h5{
-	background: url(images/nav-h.gif) center left no-repeat;
-	font: 1.5em "Arial",sans-serif;
+	background: /*url(images/nav-h.gif)*/ center left no-repeat;
+	font: 1.5em "Lucida Sans Unicode",sans-serif;
 	padding-left: 25px;
 	margin: 7px 0 3px 3px;
 }
